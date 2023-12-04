@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Restaurant Name</title>
+    <link rel="stylesheet" href="contact_us.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <!-- <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav> -->
+    <main>
+        <section id="contact-details">
+            <h2>Contact Information</h2>
+            <p>
+                <strong>Address:</strong><br>
+                Near Unimall ,<br>
+                Lovely Professional University ,<br>
+                Phagwara,Punjab.
+            </p>
+            <p>
+                <strong>Phone:</strong><br>
+                (123) 456-7890
+            </p>
+            <p>
+                <strong>Email:</strong><br>
+                <a  href="mailto:info@lpuhotel.com" style="color: red;">info@lpuhotel.com</a>
+            </p>
+            <p>
+                <strong>Hours of Operation:</strong><br>
+                Monday - Friday: 11:00 AM - 10:00 PM<br>
+                Saturday - Sunday: 9:00 AM - 11:00 PM
+            </p>
+        </section>
+        <section id="contact-form">
+            <h2>Contact Form</h2>
+            <form action="process_contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 LPU <b>HOTEL</b></p>
+    </footer>
+</body>
+</html>

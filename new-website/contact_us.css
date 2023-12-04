@@ -1,0 +1,108 @@
+/* Reset some default styles to create a clean slate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Style the header with a background color, text color, and padding */
+header {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the main navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Apply padding and margin to the main content section */
+main {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+/* Style the contact details section */
+#contact-details {
+    margin-bottom: 20px;
+}
+
+#contact-details h2 {
+    color: #e74c3c;
+}
+
+#contact-details p {
+    margin-bottom: 10px;
+}
+
+/* Style the contact form section */
+#contact-form {
+    /* background-color: #f7f7f7; */
+    background-color:#dda099;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form h2 {
+    color: #333;
+}
+
+#contact-form label {
+    font-weight: bold;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #c0392b;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}

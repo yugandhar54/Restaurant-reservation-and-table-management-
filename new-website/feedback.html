@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feedback.css">
+    <style>
+        input[type="radio"]:checked{
+            accent-color:  rgb(255, 119, 0);
+            transform: scale(1.4);
+        }
+        input[type="checkbox"]:checked{
+            accent-color:  rgb(255, 119, 0);
+            transform: scale(1.5);
+        }
+        textarea{
+            color:  rgb(255, 119, 0);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="feedback-div">
+        <div id="feedback-div-content">
+            <h1 id="heading">Feedback</h1>
+            <form id="feedbackForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email   :  </label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label>How satisfied are you with our service?</label><br>
+                <input type="radio" id="satisfactionGood" name="satisfaction" value="good">
+                <label for="satisfactionGood">Good</label>
+                <input type="radio" id="satisfactionAverage" name="satisfaction" value="average">
+                <label for="satisfactionAverage">Average</label>
+                <input type="radio" id="satisfactionPoor" name="satisfaction" value="poor">
+                <label for="satisfactionPoor">Poor</label><br>
+
+                <label>What can we improve?</label><br>
+                <textarea id="improvement" name="improvement" rows="4" cols="50"></textarea><br>
+
+                <label>Subscribe to our newsletter?</label>
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br>
+
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
